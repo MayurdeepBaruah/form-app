@@ -3,7 +3,7 @@ function Header()
     return(
         <div>
             <div>
-                <h1>Form App</h1>
+                <h1 className="header">Form App</h1>
             </div>
             <div>
 
