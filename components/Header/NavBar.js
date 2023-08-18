@@ -6,7 +6,7 @@ function NavBar(){
         <div className="row navbar">
             {
             navbar.map(function(a,b){
-                return <div className="column2">
+                return <div className="column2" key={b}>
                 {a}
             </div>
             })

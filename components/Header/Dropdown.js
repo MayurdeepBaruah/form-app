@@ -23,7 +23,7 @@ function Dropdown(props)
                 <ul className={"dropdown "+hidden}>
                     {
                         props.pages1.map(function(a,b){
-                            return <li>{a}</li>
+                            return <li key={b}>{a}</li>
                         })
                     }
                 </ul>

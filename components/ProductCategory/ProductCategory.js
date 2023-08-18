@@ -39,6 +39,7 @@ function ProductCategory(){
                   height="194"
                   image={"/images/"+ category.image}
                   alt={category.image}
+                  key={b}
                 />
               })}
             </div>
