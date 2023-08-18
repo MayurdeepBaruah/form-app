@@ -1,5 +1,131 @@
 h1.header
 {
-    height: 60px;
     color: blue;
 }
+.icon
+{
+    height: 20px !important;
+}
+body {
+    font-family: sans-serif;
+  }
+  h1 {
+    background-color: red;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  div.e1 {
+    left: 100px;
+    position: relative;
+    height: 100px;
+  }
+  div.e2 {
+    left: 100px;
+    position: relative;
+    background-color: blue;
+    height: 100px;
+  }
+  h1.hello1 {
+    top: 0;
+    left: 400px;
+    position: fixed;
+  }
+  h1.hello2 {
+    top: 0;
+    left: 400px;
+    position: absolute;
+  }
+  .column1 {
+    width: 8.33%;
+  }
+  .column2 {
+    width: 16.67%;
+  }
+  .column3 {
+    width: 25%;
+    padding: 0;
+  }
+  .column4 {
+    width: 33.32%;
+  }
+  .column5 {
+    width: 41.65%;
+  }
+  .column6 {
+    width: 50%;
+  }
+  .column7 {
+    width: 58.31%;
+  }
+  .column8 {
+    width: 66.64%;
+  }
+  .column9 {
+    width: 75%;
+  }
+  .column10 {
+    width: 83.33%;
+  }
+  .column11 {
+    width: 91.63%;
+  }
+  .column12 {
+    width: 100%;
+  }
+  .row>*
+  {
+    float: left;
+  }
+  .row
+  {
+    clear: both;
+  }
+  .row::after
+  {
+    clear:both;
+  }
+  .container
+  {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+  .row1>*
+  {
+    float:left;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    max-width: 1200px;
+    margin-left: 30px;
+  }
+  .hidden
+  {
+    display: none;
+  }
+  .navbar
+  {
+    
+    color: white;
+  }
+  .navbar>*
+  {
+    background-color: black;
+    padding: 8px;
+  }
+  .category-container
+  {
+    display:flex;
+    flex-direction: row;
+    width: 1200px;
+  }
+  .category-container>*
+  {
+      flex: 300px;
+      margin: unset;
+  }
+
+
